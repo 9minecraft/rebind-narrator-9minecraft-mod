@@ -1,0 +1,31 @@
+# Rebind Narrator — Never Trigger the Narrator By Mistake
+
+Rebind Narrator 9minecraft Mod lets you change the shortcut key for the game's voice reader. In the regular game, pressing Ctrl and B at the same time turns on this voice, and you cannot change this shortcut. This causes players to turn it on by mistake and struggle to turn it off. This mod adds a new setting to your controls menu so you can pick a different key. It works on your side only, meaning you can join any server without the server needing the mod.
+
+## What this build is
+
+An unofficial rebuild of **quat**'s original work, kept running on current Minecraft releases by 9Minecraft Studios. Not affiliated with the original author and not endorsed by them.
+
+Most of the porting work sits in the mixin layer. Each Minecraft release moves or renames the methods this mod hooks into, so the hooks are re-pointed and re-tested against that version rather than rewritten. The behaviour underneath is upstream's and is deliberately left alone — that is the part that makes the mod feel right, and it is not ours to redesign.
+
+## Source code
+
+This build is released under **LGPL-3.0-only**. The complete corresponding source ships inside the downloadable file under `META-INF/sources/`, next to the original licence text.
+
+## Versions
+
+| Minecraft | Loader |
+|---|---|
+| 26.3 | NeoForge, neoforge |
+| 26.2 | NeoForge, neoforge |
+| 1.21.11 | NeoForge, neoforge |
+
+## Getting the built mod
+
+Install steps, the dependency list, the screenshot gallery and what changed in each release are kept together on the download page:
+
+[9minecraft.net/rebind-narrator-9minecraft-mod](https://www.9minecraft.net/rebind-narrator-9minecraft-mod/)
+
+## Credits
+
+Original work by **quat**. Port and maintenance by 9Minecraft Studios. Licensed LGPL-3.0-only; the upstream licence text ships inside every build.
